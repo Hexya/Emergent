@@ -102,35 +102,41 @@ const App = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
-              className="group"
+              className="group relative"
             >
-              <div className="relative overflow-hidden rounded-2xl mb-8 aspect-[4/3]">
-                <img 
-                  src="https://images.unsplash.com/photo-1651083207141-bdf5fadf9679"
-                  alt="Sports Massage"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-stone-950/40 group-hover:bg-stone-950/20 transition-colors duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-rose-500/20 to-rose-600/20 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-500"></div>
+              <div className="relative bg-stone-900/50 border border-stone-800 p-8 rounded-2xl hover:border-rose-500/50 transition-all duration-500">
+                <div className="relative overflow-hidden rounded-2xl mb-8 aspect-[4/3]">
+                  <img 
+                    src="https://images.unsplash.com/photo-1651083207141-bdf5fadf9679"
+                    alt="Sports Massage"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-rose-950/40 group-hover:bg-rose-950/20 transition-colors duration-500"></div>
+                  <div className="absolute top-4 right-4">
+                    <div className="w-3 h-3 bg-rose-500 rounded-full animate-pulse"></div>
+                  </div>
+                </div>
+                <h3 className="text-3xl font-serif text-stone-100 mb-4 group-hover:text-rose-300 transition-colors duration-300">Sports Massage</h3>
+                <p className="text-stone-300 text-lg leading-relaxed mb-6">
+                  Enhance performance, prevent injury, and accelerate recovery with targeted 
+                  techniques designed for active lifestyles.
+                </p>
+                <ul className="space-y-2 text-stone-400">
+                  <li className="flex items-center gap-3">
+                    <CheckCircle size={16} className="text-rose-500" />
+                    Pre-event preparation
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <CheckCircle size={16} className="text-rose-500" />
+                    Post-workout recovery
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <CheckCircle size={16} className="text-rose-500" />
+                    Injury prevention
+                  </li>
+                </ul>
               </div>
-              <h3 className="text-3xl font-serif text-stone-100 mb-4">Sports Massage</h3>
-              <p className="text-stone-300 text-lg leading-relaxed mb-6">
-                Enhance performance, prevent injury, and accelerate recovery with targeted 
-                techniques designed for active lifestyles.
-              </p>
-              <ul className="space-y-2 text-stone-400">
-                <li className="flex items-center gap-3">
-                  <CheckCircle size={16} className="text-stone-500" />
-                  Pre-event preparation
-                </li>
-                <li className="flex items-center gap-3">
-                  <CheckCircle size={16} className="text-stone-500" />
-                  Post-workout recovery
-                </li>
-                <li className="flex items-center gap-3">
-                  <CheckCircle size={16} className="text-stone-500" />
-                  Injury prevention
-                </li>
-              </ul>
             </motion.div>
 
             {/* Stress Relief */}
