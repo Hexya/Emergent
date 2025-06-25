@@ -579,7 +579,7 @@ const App = () => {
                 ></textarea>
                 <button 
                   type="submit"
-                  className="w-full bg-stone-100 text-stone-950 py-4 rounded-lg font-medium hover:bg-stone-200 transition-colors duration-300"
+                  className="w-full bg-gradient-to-r from-amber-500 to-orange-500 text-white py-4 rounded-lg font-medium hover:from-amber-600 hover:to-orange-600 transition-all duration-300 shadow-lg"
                 >
                   Send Booking Request
                 </button>
