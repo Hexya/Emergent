@@ -606,7 +606,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h3 className="text-4xl font-serif font-light text-stone-100 mb-4">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">lolo</span> bere
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-beige-400 to-warmStone-400">lolo</span> bere
             </h3>
             <p className="text-stone-400 max-w-2xl mx-auto">
               Professional massage therapy dedicated to your wellness journey. 
