@@ -30,7 +30,7 @@ const App = () => {
             <h1 className="text-6xl md:text-8xl font-serif font-light text-stone-100 mb-6 leading-tight tracking-tight">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-beige-400 to-warmStone-400">lolo</span> bere
             </h1>
-            <div className="w-24 h-px bg-gradient-to-r from-amber-500 to-orange-500 mx-auto mb-8"></div>
+            <div className="w-24 h-px bg-gradient-to-r from-beige-500 to-warmStone-500 mx-auto mb-8"></div>
           </motion.div>
           
           <motion.h2
