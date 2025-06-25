@@ -57,8 +57,8 @@ const App = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 1.4 }}
-            whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0,0,0,0.4)" }}
-            className="bg-stone-100 text-stone-950 px-12 py-4 rounded-full text-lg font-medium hover:bg-stone-200 transition-all duration-300 inline-flex items-center gap-3 shadow-2xl"
+            whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(245, 158, 11, 0.4)" }}
+            className="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-12 py-4 rounded-full text-lg font-medium hover:from-amber-600 hover:to-orange-600 transition-all duration-300 inline-flex items-center gap-3 shadow-2xl"
           >
             Book Your Session
             <ArrowRight size={20} />
