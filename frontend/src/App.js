@@ -399,8 +399,8 @@ const App = () => {
                 
                 <button className={`w-full py-4 rounded-full font-medium transition-all duration-300 ${
                   plan.popular
-                    ? 'bg-stone-950 text-stone-100 hover:bg-stone-800'
-                    : 'bg-stone-100 text-stone-950 hover:bg-stone-200'
+                    ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600 shadow-lg'
+                    : 'bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600'
                 }`}>
                   Book Now
                 </button>
