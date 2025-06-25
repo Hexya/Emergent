@@ -358,7 +358,7 @@ const App = () => {
                 viewport={{ once: true }}
                 className={`relative p-8 rounded-2xl ${
                   plan.popular 
-                    ? 'bg-gradient-to-br from-amber-50 to-orange-50 text-stone-950 scale-105 border-2 border-amber-500/50 shadow-2xl shadow-amber-500/20' 
+                    ? 'bg-gradient-to-br from-beige-50 to-warmStone-50 text-stone-950 scale-105 border-2 border-beige-500/50 shadow-2xl shadow-beige-500/20' 
                     : 'bg-stone-900/50 border border-stone-800'
                 }`}
               >
