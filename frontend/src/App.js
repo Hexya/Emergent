@@ -188,35 +188,41 @@ const App = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
               viewport={{ once: true }}
-              className="group"
+              className="group relative"
             >
-              <div className="relative overflow-hidden rounded-2xl mb-8 aspect-[4/3]">
-                <img 
-                  src="https://images.pexels.com/photos/3230236/pexels-photo-3230236.jpeg"
-                  alt="Therapeutic Massage"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-stone-950/40 group-hover:bg-stone-950/20 transition-colors duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-500/20 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-500"></div>
+              <div className="relative bg-stone-900/50 border border-stone-800 p-8 rounded-2xl hover:border-amber-500/50 transition-all duration-500">
+                <div className="relative overflow-hidden rounded-2xl mb-8 aspect-[4/3]">
+                  <img 
+                    src="https://images.pexels.com/photos/3230236/pexels-photo-3230236.jpeg"
+                    alt="Therapeutic Massage"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-amber-950/40 group-hover:bg-amber-950/20 transition-colors duration-500"></div>
+                  <div className="absolute top-4 right-4">
+                    <div className="w-3 h-3 bg-amber-500 rounded-full animate-pulse"></div>
+                  </div>
+                </div>
+                <h3 className="text-3xl font-serif text-stone-100 mb-4 group-hover:text-amber-300 transition-colors duration-300">Therapeutic Wellness</h3>
+                <p className="text-stone-300 text-lg leading-relaxed mb-6">
+                  Comprehensive wellness approach addressing chronic pain, circulation, 
+                  and overall life quality enhancement.
+                </p>
+                <ul className="space-y-2 text-stone-400">
+                  <li className="flex items-center gap-3">
+                    <CheckCircle size={16} className="text-amber-500" />
+                    Pain management
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <CheckCircle size={16} className="text-amber-500" />
+                    Improved circulation
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <CheckCircle size={16} className="text-amber-500" />
+                    Flexibility enhancement
+                  </li>
+                </ul>
               </div>
-              <h3 className="text-3xl font-serif text-stone-100 mb-4">Therapeutic Wellness</h3>
-              <p className="text-stone-300 text-lg leading-relaxed mb-6">
-                Comprehensive wellness approach addressing chronic pain, circulation, 
-                and overall life quality enhancement.
-              </p>
-              <ul className="space-y-2 text-stone-400">
-                <li className="flex items-center gap-3">
-                  <CheckCircle size={16} className="text-stone-500" />
-                  Pain management
-                </li>
-                <li className="flex items-center gap-3">
-                  <CheckCircle size={16} className="text-stone-500" />
-                  Improved circulation
-                </li>
-                <li className="flex items-center gap-3">
-                  <CheckCircle size={16} className="text-stone-500" />
-                  Flexibility enhancement
-                </li>
-              </ul>
             </motion.div>
           </div>
         </div>
