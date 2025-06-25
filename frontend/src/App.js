@@ -518,7 +518,7 @@ const App = () => {
           >
             <div className="space-y-6">
               <div className="flex items-center gap-4 text-stone-300">
-                <Phone size={24} className="text-stone-400" />
+                <Phone size={24} className="text-amber-500" />
                 <div>
                   <div className="font-medium">Call or Text</div>
                   <div className="text-stone-400">(555) 123-4567</div>
@@ -526,7 +526,7 @@ const App = () => {
               </div>
               
               <div className="flex items-center gap-4 text-stone-300">
-                <Mail size={24} className="text-stone-400" />
+                <Mail size={24} className="text-emerald-500" />
                 <div>
                   <div className="font-medium">Email</div>
                   <div className="text-stone-400">book@lolobere.com</div>
@@ -534,7 +534,7 @@ const App = () => {
               </div>
               
               <div className="flex items-center gap-4 text-stone-300">
-                <MapPin size={24} className="text-stone-400" />
+                <MapPin size={24} className="text-rose-500" />
                 <div>
                   <div className="font-medium">Location</div>
                   <div className="text-stone-400">123 Wellness Street<br />Serenity City, SC 12345</div>
@@ -542,7 +542,7 @@ const App = () => {
               </div>
               
               <div className="flex items-center gap-4 text-stone-300">
-                <Clock size={24} className="text-stone-400" />
+                <Clock size={24} className="text-orange-500" />
                 <div>
                   <div className="font-medium">Hours</div>
                   <div className="text-stone-400">
