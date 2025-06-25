@@ -364,7 +364,7 @@ const App = () => {
               >
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg">
+                    <span className="bg-gradient-to-r from-beige-500 to-warmStone-500 text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg">
                       ⭐ Most Popular
                     </span>
                   </div>
