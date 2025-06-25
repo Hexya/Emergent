@@ -261,7 +261,7 @@ const App = () => {
                     viewport={{ once: true }}
                     className="flex gap-4"
                   >
-                    <div className="flex-shrink-0 w-2 h-2 bg-stone-400 rounded-full mt-3"></div>
+                    <div className="flex-shrink-0 w-3 h-3 bg-gradient-to-r from-amber-500 to-orange-500 rounded-full mt-3 shadow-lg"></div>
                     <div>
                       <h3 className="text-xl font-medium text-stone-200 mb-2">{benefit.title}</h3>
                       <p className="text-stone-400">{benefit.desc}</p>
