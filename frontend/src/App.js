@@ -304,7 +304,7 @@ const App = () => {
             <h2 className="text-5xl md:text-6xl font-serif font-light text-stone-100 mb-6">
               Pricing
             </h2>
-            <div className="w-24 h-px bg-gradient-to-r from-amber-500 to-orange-500 mx-auto mb-8"></div>
+            <div className="w-24 h-px bg-gradient-to-r from-beige-500 to-warmStone-500 mx-auto mb-8"></div>
             <p className="text-xl text-stone-300 max-w-3xl mx-auto">
               Transparent pricing for professional massage therapy services
             </p>
