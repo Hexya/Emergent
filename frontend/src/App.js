@@ -466,7 +466,7 @@ const App = () => {
               >
                 <div className="flex gap-1 mb-6">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} size={20} className="fill-amber-500 text-amber-500" />
+                    <Star key={i} size={20} className="fill-beige-500 text-beige-500" />
                   ))}
                 </div>
                 <p className="text-stone-300 text-lg mb-6 leading-relaxed">
